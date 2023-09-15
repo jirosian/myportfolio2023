@@ -11,3 +11,105 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn--yellow {
+  color: #000;
+  background-color: #fff100;
+  border-bottom: 5px solid #ccc100;
+}
+
+a.btn--yellow {
+  color: #000;
+  background-color: #fff100;
+  border-bottom: 5px solid #ccc100;
+}
+
+a.btn--yellow:hover {
+  margin-top: 3px;
+  color: #000;
+  background: #fff20a;
+  border-bottom: 2px solid #ccc100;
+}
+
+.line {
+  width: 80%;
+}
+
+.viewcode {
+  text-decoration: none;
+  color: #0a7fa6;
+  font-size: 16px;
+}
+
+.viewcode:hover {
+  text-decoration: underline; 
+}
+
+p {
+  max-width: 80%;
+  margin: 0 auto; 
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+ul {
+  text-align: center;
+  margin: 0 auto;
+  list-style-type: none;
+  width: 50%; 
+  padding: 0;
+}
+
+a {
+  transition: all .2s ease-out;
+  text-decoration: none;
+  opacity: 1;
+  color: #0a7fa6;;
+  outline: 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+a.contact:hover {
+  cursor:pointer;
+}
